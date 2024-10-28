@@ -6467,10 +6467,10 @@ blockquote {
 }
 
 .about-img-background {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("/assets/images/forestview.jpeg");
-  background-position: 0 0, 0%;
+  background-image: url("/assets/images/forestview.jpeg");
+  /* background-position: 0 0, 0%; */
   background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
+  background-size:cover;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -6479,18 +6479,18 @@ blockquote {
 }
 
 .about-img-background.right-image {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("/assets/images/forestview.jpeg");
-  background-position: 0 0, 50%;
+  background-image:url("/assets/images/forestview.jpeg");
+  /* background-position: 0 0, 50%; */
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
 
 .about-img-background.inner-image {
-  background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url("/assets/images/forestview.jpeg");
-  background-position: 0 0, 50% 35%;
+  background-image:url("/assets/images/forestview.jpeg");
+  /* background-position: 0 0, 50% 35%; */
   background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
-}
+  background-size:cover;
+} 
 
 .about-grid-wrapper {
   grid-column-gap: 40px;
