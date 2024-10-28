@@ -6483,7 +6483,7 @@ blockquote {
 }
 
 .about-img-background.inner-image {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://assets-global.website-files.com/66095c4875ab8244173c63d7/6616a6451b6561c965f53772_drew-dau-xI3fdzznkWg-unsplash%20(1).webp");
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("/assets/images/66095c4875ab8244173c63d7/resort.jpeg");
   background-position: 0 0, 50% 35%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;

@@ -4,6 +4,9 @@ html {
   font-family: sans-serif;
 }
 
+#about11{
+  will-change: filter; filter: invert(100%)
+}
 body {
   margin: 0;
 }
@@ -292,12 +295,12 @@ pre.w-code-block code {
 
 .w-webflow-badge, .w-webflow-badge * {
   z-index: auto;
-  visibility: visible;
+  visibility: hidden;
   box-sizing: border-box;
   float: none;
   clear: none;
   box-shadow: none;
-  opacity: 1;
+  opacity: 0;
   direction: ltr;
   font-family: inherit;
   font-weight: inherit;
@@ -333,7 +336,7 @@ pre.w-code-block code {
   padding: 0;
   list-style-type: disc;
   transition: none;
-  display: block;
+  display: none;
   position: static;
   top: auto;
   bottom: auto;
@@ -347,10 +350,10 @@ pre.w-code-block code {
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
-  visibility: hidden !important;
+  visibility: hidden;
   z-index: 2147483647 !important;
   color: #aaadb0 !important;
-  opacity: 1 !important;
+  opacity: 0;
   background-color: #fff !important;
   border-radius: 3px !important;
   width: auto !important;
@@ -360,7 +363,7 @@ pre.w-code-block code {
   font-size: 12px !important;
   line-height: 14px !important;
   text-decoration: none !important;
-  display: inline-block !important;
+  display: none;
   position: fixed !important;
   top: auto !important;
   bottom: 12px !important;
@@ -371,8 +374,8 @@ pre.w-code-block code {
 }
 
 .w-webflow-badge > img {
-  visibility: hidden !important;
-  opacity: 1 !important;
+  visibility:  hidden;
+  opacity: 0 !important;
   vertical-align: middle !important;
   display: inline-block !important;
 }
@@ -6438,7 +6441,7 @@ blockquote {
 
 .h2-title-tag {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 
 .center-text-wrapper {
@@ -6464,7 +6467,7 @@ blockquote {
 }
 
 .about-img-background {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://assets-global.website-files.com/66095c4875ab8244173c63d7/661008b7bb402c45819f4193_pexels-mart-production-7414909%20(1)%201.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("/assets/images/forestview.jpeg");
   background-position: 0 0, 0%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -6476,14 +6479,14 @@ blockquote {
 }
 
 .about-img-background.right-image {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://assets-global.website-files.com/66095c4875ab8244173c63d7/660d030af54d924632237aab_pexels-mart-production-7415115%201%20(1).webp");
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("/assets/images/forestview.jpeg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
 
 .about-img-background.inner-image {
-  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://assets-global.website-files.com/66095c4875ab8244173c63d7/6616a6451b6561c965f53772_drew-dau-xI3fdzznkWg-unsplash%20(1).webp");
+  background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url("/assets/images/forestview.jpeg");
   background-position: 0 0, 50% 35%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
