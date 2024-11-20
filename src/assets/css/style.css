@@ -8585,7 +8585,7 @@ blockquote {
 }
 
 .video-about {
-  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("https://assets-global.website-files.com/66095c4875ab8244173c63d7/661cf11c297d97132b3edda3_Image%20Service.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("/assets/images/logo.png");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
