@@ -5304,7 +5304,7 @@ blockquote {
 }
 
 .intro-video-wrapper {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://forestparadise.in/assets/images/66095c4875ab8244173c63d7/signature-corbett-shot.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://forestparadise.in/assets/images/66095c4875ab8244173c63d7/signature-corbett-shot.jpg"); */
   background-position: 0 0, 50%;
   background-size: auto, cover;
   border-radius: 4px;
